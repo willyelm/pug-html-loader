@@ -6,6 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willyelm/pug-html-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willyelm/pug-html-loader/issues"
+  },
+  "homepage": "https://github.com/willyelm/pug-html-loader",
+  "keywords": [
+    "html",
+    "pug",
+    "loader",
+    "webpack",
+    "compile",
+    "plain"
+  ],
   "author": "Williams Medina <williams.medinaa@gmail.com>",
   "license": "MIT",
   "dependencies": {
