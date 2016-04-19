@@ -10,7 +10,7 @@ In your sources:
 
 ``` javascript
 var json = require('file.pug')
-// => returns file.jade content as html compiled string
+// => returns file.pug content as html compiled string
 ```
 
 In your karma.conf.js  file:
