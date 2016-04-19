@@ -9,11 +9,11 @@
 In your sources:
 
 ``` javascript
-var json = require('file.pug')
+var json = require('./file.pug')
 // => returns file.pug content as html compiled string
 ```
 
-In your karma.conf.js  file:
+In your webpack.config.js  file:
 
 ```javascript
 module.exports = {
