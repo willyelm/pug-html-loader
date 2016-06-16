@@ -9,7 +9,7 @@
 In your sources:
 
 ``` javascript
-var json = require('./file.pug')
+var html = require('./file.pug')
 // => returns file.pug content as html compiled string
 ```
 
