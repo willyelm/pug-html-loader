@@ -1,6 +1,6 @@
 {
   "name": "pug-html-loader",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Pug to html loader for webpack",
   "main": "lib/index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   "license": "MIT",
   "dependencies": {
     "loader-utils": "^0.2.14",
-    "pug": "^2.0.0-alpha3"
+    "pug": "^2.0.0-alpha8"
   }
 }
