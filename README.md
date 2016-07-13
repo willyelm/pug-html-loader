@@ -19,9 +19,10 @@ In your webpack.config.js  file:
 module.exports = {
   // your config settings ...
   module: [
-    //your modules...
+    // your modules...
     loaders: [{
       include: /\.pug/,
+      // pass options to pug as a query ('pug-html-loader?pretty')
       loader: 'pug-html-loader'
     }]
   ]
