@@ -22,7 +22,6 @@ module.exports = {
     // your modules...
     loaders: [{
       include: /\.pug/,
-      // pass options to pug as a query ('pug-html-loader?pretty')
       loader: ['raw-loader', 'pug-html-loader']
     }]
   ]
