@@ -23,7 +23,7 @@ module.exports = {
     loaders: [{
       include: /\.pug/,
       // pass options to pug as a query ('pug-html-loader?pretty')
-      loader: 'pug-html-loader'
+      loader: ['raw-loader', 'pug-html-loader']
     }]
   ]
 };
@@ -41,7 +41,7 @@ module.exports = {
     loaders: [{
       include: /\.pug/,
       // pass options to pug as a query ('pug-html-loader?pretty')
-      loaders: ['html-loader', 'pug-html-loader?exports=false']
+      loaders: ['html-loader', 'pug-html-loader']
     }]
   ]
 };
