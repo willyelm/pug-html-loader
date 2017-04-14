@@ -18,7 +18,7 @@ In your webpack.config.js  file:
 ```javascript
 module.exports = {
   // your config settings ...
-  module: [
+  rules: [
     // your modules...
     loaders: [{
       include: /\.pug/,
