@@ -37,10 +37,13 @@ module.exports = {
   // your config settings ...
   module: [
     // your modules...
-    loaders: [{
-      include: /\.pug/,
-      // pass options to pug as a query ('pug-html-loader?pretty')
-      loaders: ['html-loader', 'pug-html-loader']
+    rules: [{
+      test: /\.pug/,
+      loaders: ['html-loader', 'pug-html-loader'],
+      options: {
+        // options to pass to the compiler same as: https://pugjs.org/api/reference.html
+        data: {} // set of data to pass to the pug render.
+      }
     }]
   ]
 };
