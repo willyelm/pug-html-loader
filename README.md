@@ -18,7 +18,7 @@ In your webpack.config.js  file:
 ```javascript
 module.exports = {
   // your config settings ...
-  rules: [
+  rules: [{
     // your modules...
     loaders: [{
       include: /\.pug/,
@@ -28,7 +28,7 @@ module.exports = {
         data: {} // set of data to pass to the pug render.
       }
     }]
-  ]
+  }]
 };
 ```
 
@@ -39,7 +39,7 @@ module.exports = {
 ```javascript
 module.exports = {
   // your config settings ...
-  module: [
+  module: [{
     // your modules...
     rules: [{
       test: /\.pug/,
@@ -49,7 +49,7 @@ module.exports = {
         data: {} // set of data to pass to the pug render.
       }
     }]
-  ]
+  }]
 };
 ```
 
