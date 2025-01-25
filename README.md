@@ -1,5 +1,7 @@
 # Pug HTML loader for webpack
 
+A webpack loader to transform pug files into HTML.
+
 ## Installation
 
 `npm install pug-html-loader`
